@@ -1,0 +1,1 @@
+qemu-system-x86_64 -m 2048 -smp 2 -drive file=debian-13-nocloud-amd64.qcow2,media=disk,if=virtio -nic user,model=virtio -nographic
